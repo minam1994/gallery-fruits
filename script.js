@@ -10,6 +10,8 @@ var orange = document.getElementById("orange");
 var raspberry = document.getElementById("raspberry");
 var strawberry = document.getElementById("strawberry");
 
+// Using event listener for fruits to show text with scroll to the beginning where text will be
+
 apple.addEventListener("click", function(){
     h3.textContent = "Apples";
     p.textContent = "An apple is a sweet, edible fruit produced by an apple tree (Malus pumila). Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian traditions.";
@@ -18,6 +20,7 @@ apple.addEventListener("click", function(){
 banana.addEventListener("click", function(){
     h3.textContent = "Bananas";
     p.textContent = "A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. The fruit is variable in size, color, and firmness, but is usually elongated and curved, with soft flesh rich in starch covered with a rind, which may be green, yellow, red, purple, or brown when ripe.";
+    scroll(0,0)
 });
 
 blueberry.addEventListener("click", function(){
